@@ -1,5 +1,25 @@
 Mediledger Release 1.10.0 Bill of Materials
 -------------------------------------------
+Component images
+----------------
+Component -  cbk-n-connector - image: quay.io/chronicled/cbk-n-connector:24825f4
+Component -  confidential-messaging-interface - image: quay.io/chronicled/confidential-messaging-interface:155b523
+Component -  contract-component - image: quay.io/chronicled/contract-component:df0c018
+Component  - corona. -  image: quay.io/chronicled/corona:ccab39c
+Component -  customer-component - image: quay.io/chronicled/customer-component:160207f
+Component -  data-sharing-engine - image: quay.io/chronicled/data-sharing-engine:1d9066b
+Component -  event-storage-service - image: quay.io/chronicled/event-storage-service:0eeba4f
+Component -  network-registration - image: quay.io/chronicled/network-registration:3c944ed
+Component -  pipeline-aggregator - image: quay.io/chronicled/pipeline-aggregator:9344d72
+Component -  primitive-tracking-service - image: quay.io/chronicled/primitive-tracking-service:ccab7e7
+Component -  protocol-primitive-service - image: quay.io/chronicled/protocol-primitive-service:4fd30b9
+Component -  trading-partner-management - image: quay.io/chronicled/trading-partner-management:4b9b854
+
+--------------------------------------------------------------
+
+Dependencies
+------------
+
 Component -  cbk-n-connector
 - Apache Commons IO (2.8.0) [Apache-2.0]
 - Apache HttpClient (4.5.12) [Apache-2.0]
